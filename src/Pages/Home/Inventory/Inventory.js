@@ -12,11 +12,11 @@ const Inventory = ({ inventory }) => {
   return (
     <div className=" col ">
       <div className="inventory card h-100">
-        <img src={img} className="card-img-top" alt="..." />
+        <img src={img} className="card-img-top inventory-image mb-1 mx-auto" alt="..." />
         <div className="card-body p-0">
-          <h5 className="card-title p-1 w-100 bg-secondary text-white">
-            Package-{id}: {name}
-          </h5>
+          <h6 className="card-title p-2 w-100 bg-secondary text-white">
+            Book Name: <span>{name}</span>
+          </h6>
           <p className="card-text">{description}</p>
           <p className="card-text">
             Price:
