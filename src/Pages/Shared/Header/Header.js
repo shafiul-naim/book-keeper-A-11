@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className="nav-style">
       <Navbar
+        className=" position-fixed w-100 "
         collapseOnSelect
         expand="lg"
         bg="success"
