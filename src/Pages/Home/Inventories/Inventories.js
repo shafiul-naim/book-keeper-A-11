@@ -13,8 +13,8 @@ const Inventories = () => {
         <div id="services" className="container mt-5 ">
         <h2 className="text-center mt-5 text-primary ">My Services</h2>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-      {inventories.map((service) => (
-        <Inventory key={service.id} service={service}></Inventory>
+      {inventories.map((inventory) => (
+        <Inventory key={inventory.id} inventory={inventory}></Inventory>
       ))}
       </div>
     </div>

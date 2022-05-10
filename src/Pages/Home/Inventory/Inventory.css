@@ -1,0 +1,15 @@
+.inventory {
+  border: none;
+  background-color: rgb(208, 215, 216);
+}
+.btn-update {
+  background-color: #162220;
+  border: none;
+}
+.btn-update:hover,
+.btn-update:focus,
+.btn-update:active,
+.btn-update.active,
+.open > .dropdown-toggle.btn-update {
+  background-color: #276a67;
+}
