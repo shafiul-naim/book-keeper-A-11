@@ -1,6 +1,4 @@
-/* .inventory {
-  border: none;
-} */
+
 .inventory-image {
     width: 200px;
     height: 200px;
@@ -20,3 +18,7 @@
 .open > .dropdown-toggle.btn-update {
   background-color: #276a67;
 }
+
+
+
+

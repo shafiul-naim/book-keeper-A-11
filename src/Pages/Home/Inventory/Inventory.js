@@ -19,9 +19,9 @@ const Inventory = ({ inventory }) => {
             Book Name: <span>{name}</span>
           </h6>
           <p className="card-text">{description}</p>
-          <p className="card-text">
+          <p className="card-text mb-2">
             Price:
-            <span className="fw-bold">{price}</span>
+            <span className="fw-bold ">{price}</span>
           </p>
         </div>
         <div className=" rounded mx-auto text-center w-100">

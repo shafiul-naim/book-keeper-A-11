@@ -20,8 +20,19 @@
     z-index: 1;
 
     right:25%;
-    top: 50%;
+    top: 75%;
     width: 50%;
     text-align: center;
     color: rgb(0, 0, 0);
   }
+
+
+  @media only screen and (max-width: 476px) {
+    
+    .banner-title{
+       font-size: 20px;
+       top: 50%;
+    }
+    
+  }
+ 
