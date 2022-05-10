@@ -14,7 +14,8 @@ const Inventory = ({ inventory }) => {
       <div className="inventory card h-100">
         <img src={img} className="card-img-top inventory-image mb-1 mx-auto" alt="..." />
         <div className="card-body p-0">
-          <h6 className="card-title p-2 w-100 bg-secondary text-white">
+          <h6 className="card-title p-2 w-100 text-black
+          ">
             Book Name: <span>{name}</span>
           </h6>
           <p className="card-text">{description}</p>

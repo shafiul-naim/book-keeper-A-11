@@ -7,7 +7,7 @@
     border-radius: 50%;
     padding: 1px;
     border: 8px solid transparent;
-    background: linear-gradient(60deg, #EFA51A, #ce00 100%);
+    background: linear-gradient(60deg, #5cd08a, rgba(116, 134, 15, 0) 100%);
 }
 .btn-update {
   background-color: #162220;
