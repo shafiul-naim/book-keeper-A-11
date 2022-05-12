@@ -15,7 +15,7 @@ const Login = () => {
 
     // signInWithEmailAndPassword(email, password);
 
-    console.log(email, password);
+  
   };
 
   const navigateRegister = (event) => {
@@ -46,7 +46,7 @@ const Login = () => {
         </Form.Group>
 
         <Button variant="primary" type="submit">
-          Submit
+          Login
         </Button>
       </Form>
 
