@@ -9,6 +9,7 @@ import {
   useSignInWithEmailAndPassword,
 } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
   const emailRef = useRef("");
@@ -105,6 +106,7 @@ const Login = () => {
           Reset password
         </button>
       </p>
+      <SocialLogin></SocialLogin>
       <ToastContainer />
     </div>
   );
