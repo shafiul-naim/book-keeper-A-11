@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Fera",
+    "name": "Habluder jonno Programming",
     "price": "$2",
-    "description": "In this package I take picture of individual player.It can be portrait of a player or picture of him in a match or any occasion he participate. ",
+    "description": "This book is What is programming , how does it work, how to start programming all of these things are written wonderfully with humour and easy to read",
     "img": "https://i.ibb.co/0jf5zqw/book-1.jpg",
-    "Supplier Name": "Naim",
+    "Supplier Name": "Jhankar Mahbub",
     "Quantity": "35"
   },
   {
     "id": 2,
-    "name": "la-tahjan",
+    "name": "Programming er bolod to boss",
     "price": "$3",
-    "description": "Need to take picture of a full match.In this package i take picture of everything. players photo, fan, pre-match presentation, post-match presentation and in game moments",
+    "description": "This is book about data structure, stack, queue, object, sort, searching, linked  list etc. ",
     "img": "https://i.ibb.co/bXvC2mJ/book-2.jpg",
-    "Supplier Name": "sakib",
-    "Quantity": "5"
+    "Supplier Name": "Jhankar Mahbub",
+    "Quantity": "25"
   },
   {
     "id": 3,
-    "name": "ma ma ma o baba",
+    "name": "Full-stack development",
     "price": "$8",
-    "description": "In this package i will be available for whole tournament. I will take picture of everything organizer wants me take related to sports.",
+    "description": "A complete guideline for fullstack development.Including freelancing, data structure, knowladge about fundamental programming, C, algorithm etc.",
     "img": "https://i.ibb.co/bmg0dSQ/book-3.png",
-    "Supplier Name": "nakib",
+    "Supplier Name": "H.M Nayem",
     "Quantity": "14"
   },
   {
     "id": 4,
-    "name": "enjoy your life",
+    "name": "Programmming er adopantho",
     "price": "$10",
-    "description": "In this package i will be available for whole tournament. I will take picture of everything organizer wants me take related to sports.",
+    "description": "Programming, importance of problem solving and mindset all of this things are written wonderfully in this book",
     "img": "https://i.ibb.co/5v8Y8NP/book-4.jpg",
-    "Supplier Name": "nusra",
+    "Supplier Name": "H.M Nayem",
     "Quantity": "25"
   },
   {
     "id": 5,
-    "name": "seerah",
+    "name": "Hathe kolome javascript",
     "price": "$6",
-    "description": "In this package i will be available for whole tournament. I will take picture of everything organizer wants me take related to sports.",
+    "description": "An amazing book about javascript. From basic to advance, DOM etc fundamental topics are written as documentation in bangla is this book",
     "img": "https://i.ibb.co/KW6rkST/book-5.png",
-    "Supplier Name": "Naim",
+    "Supplier Name": "Junayed Ahmed",
     "Quantity": "15"
   },
   {
     "id": 6,
-    "name": "javasrvipt",
+    "name": "52 Programming somossa",
     "price": "$5",
-    "description": "In this package i will be available for whole tournament. I will take picture of everything organizer wants me take related to sports.",
+    "description": "From basic to intermediate level C based problem.   ",
     "img": "https://i.ibb.co/20zhvN4/book-6.png",
-    "Supplier Name": "Naim",
+    "Supplier Name": "Tamim Shahriar Shubeen",
     "Quantity": "7"
   }
 ]
