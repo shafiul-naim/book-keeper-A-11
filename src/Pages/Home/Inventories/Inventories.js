@@ -22,7 +22,7 @@ const Inventories = () => {
         <h2 className="text-center my-5 text-primary ">Book Inventory</h2>
         <div className="row row-cols-1 row-cols-md-3 g-4 border-1">
           {inventories.map((inventory) => (
-            <Inventory key={inventory.id} inventory={inventory}></Inventory>
+            <Inventory key={inventory._id} inventory={inventory}></Inventory>
           ))}
         </div>
       </div>
