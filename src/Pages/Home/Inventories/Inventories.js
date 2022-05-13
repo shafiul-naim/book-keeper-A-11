@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import useInventories from "../../../hooks/useInventories";
 import Inventory from "../Inventory/Inventory";
 
 const Inventories = () => {
-  const [inventories, setInventories] = useInventories();
+  const [inventories] = useInventories();
 
   const navigate = useNavigate();
 

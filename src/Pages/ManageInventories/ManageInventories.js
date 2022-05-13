@@ -1,9 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Table } from "react-bootstrap";
 import useInventories from "../../hooks/useInventories";
 
 const ManageInventories = () => {
-  const [inventories] = useInventories();
+  const [inventories, setInventories] = useInventories();
+
+  const handleDelete = (id) => {
+const proceedDelete = window.confirm("Are your sure want to delete?")
+if(proceedDelete){
+    const url = `http://localhost:5000/inventories/${id}`;
+    fetch(url, {
+        method: 'DELETE'
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        const remainingData = inventories.filter(inventory => inventory._id !== id);
+        setInventories(remainingData)
+    })
+}
+  }
 
   return (
     <div className="container mt-5 pt-5">
@@ -18,7 +34,7 @@ const ManageInventories = () => {
                   <td className="w-25">{inventory.price}</td>
                   <td className="w-25">{inventory.supplierName}</td>
                   <td className="w-25">
-                    <button className="bg-danger p-1 text-white border-0">
+                    <button onClick={() => handleDelete(inventory._id)} className="bg-danger p-1 text-white border-0">
                       Delete
                     </button>
                   </td>
