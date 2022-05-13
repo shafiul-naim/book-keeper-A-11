@@ -5,7 +5,7 @@
     "price": "$2",
     "description": "This book is What is programming , how does it work, how to start programming all of these things are written wonderfully with humour and easy to read",
     "img": "https://i.ibb.co/0jf5zqw/book-1.jpg",
-    "Supplier Name": "Jhankar Mahbub",
+    "supplierName": "Jhankar Mahbub",
     "Quantity": "35"
   },
   {
@@ -14,7 +14,7 @@
     "price": "$3",
     "description": "This is book about data structure, stack, queue, object, sort, searching, linked  list etc. ",
     "img": "https://i.ibb.co/bXvC2mJ/book-2.jpg",
-    "Supplier Name": "Jhankar Mahbub",
+    "supplierName": "Jhankar Mahbub",
     "Quantity": "25"
   },
   {
@@ -23,7 +23,7 @@
     "price": "$8",
     "description": "A complete guideline for fullstack development.Including freelancing, data structure, knowladge about fundamental programming, C, algorithm etc.",
     "img": "https://i.ibb.co/bmg0dSQ/book-3.png",
-    "Supplier Name": "H.M Nayem",
+    "supplierName": "H.M Nayem",
     "Quantity": "14"
   },
   {
@@ -32,7 +32,7 @@
     "price": "$10",
     "description": "Programming, importance of problem solving and mindset all of this things are written wonderfully in this book",
     "img": "https://i.ibb.co/5v8Y8NP/book-4.jpg",
-    "Supplier Name": "H.M Nayem",
+    "supplierName": "H.M Nayem",
     "Quantity": "25"
   },
   {
@@ -41,7 +41,7 @@
     "price": "$6",
     "description": "An amazing book about javascript. From basic to advance, DOM etc fundamental topics are written as documentation in bangla is this book",
     "img": "https://i.ibb.co/KW6rkST/book-5.png",
-    "Supplier Name": "Junayed Ahmed",
+    "supplierName": "Junayed Ahmed",
     "Quantity": "15"
   },
   {
@@ -50,7 +50,7 @@
     "price": "$5",
     "description": "From basic to intermediate level C based problem.   ",
     "img": "https://i.ibb.co/20zhvN4/book-6.png",
-    "Supplier Name": "Tamim Shahriar Shubeen",
+    "supplierName": "Tamim Shahriar Shubeen",
     "Quantity": "7"
   }
 ]
