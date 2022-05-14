@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import useInventories from "../../hooks/useInventories";
-import './ManageInventories.css';
+import "./ManageInventories.css";
 
 const ManageInventories = () => {
   const navigate = useNavigate();
@@ -29,6 +29,10 @@ const ManageInventories = () => {
   const navigateToAddItem = () => {
     navigate("/additem");
   };
+  const navigateToInventory = (id) => {
+    navigate(`/inventory/${id}`);
+    console.log(id);
+  };
 
   return (
     <div className="container mt-5 pt-5">
@@ -40,10 +44,18 @@ const ManageInventories = () => {
             <Table striped bordered hover>
               <tbody>
                 <tr>
-                  <img className="addImg" src={inventory.img} alt="" />
-                  <td className="w-25 py-auto">{inventory.name}</td>
+                  <td className="w-25">
+                    <img className="addImg" src={inventory.img} alt="" />
+                  </td>
+                  <td className="w-25  ">{inventory.name}</td>
                   <td className="w-25">{inventory.price}</td>
                   <td className="w-25">{inventory.supplierName}</td>
+                  <td className="w-25"> <button
+                      onClick={() => navigateToInventory(inventory._id)}
+                      className="bg-info p-1 text-white border-0"
+                    >
+                      View Details
+                    </button></td>
                   <td className="w-25">
                     <button
                       onClick={() => handleDelete(inventory._id)}
