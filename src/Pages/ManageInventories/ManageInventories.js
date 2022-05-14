@@ -44,6 +44,9 @@ if(proceedDelete){
           </div>
         ))}
       </div>
+      <div>
+          <button className="text-success my-3 p-1 border-0">Add new item</button>
+      </div>
     </div>
   );
 };
