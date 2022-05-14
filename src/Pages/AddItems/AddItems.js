@@ -17,6 +17,7 @@ const AddItems = () => {
     .then(result => {
         console.log(result)
     })
+    alert("Item added successfully. Check manage inventories")
   };
   return (
     <div className="mt-5 pt-5 container w-50">
