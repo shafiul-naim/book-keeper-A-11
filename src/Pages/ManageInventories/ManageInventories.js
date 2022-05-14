@@ -17,7 +17,7 @@ if(proceedDelete){
         console.log(data);
         const remainingData = inventories.filter(inventory => inventory._id !== id);
         setInventories(remainingData)
-    })
+    });
 }
   }
 
