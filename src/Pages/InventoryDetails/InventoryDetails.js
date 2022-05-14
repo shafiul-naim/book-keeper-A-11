@@ -12,8 +12,6 @@ const InventoryDetails = () => {
       .then((res) => res.json())
       .then((data) => setInventory(data));
   }, [update]);
-  
-  
 
   const handleUpdate = () => {
     const quantity = inventory.Quantity;
@@ -30,8 +28,32 @@ const InventoryDetails = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        setUpdate(!update)
+        setUpdate(!update);
         alert("updated successfully");
+      });
+  };
+  const handleRestock = (event) => {
+    event.preventDefault();
+    const availableQuantity = inventory.Quantity;
+    const restockQuantity = parseInt(event.target.number.value);
+    const updatedQuantity = parseInt(availableQuantity + restockQuantity);
+    console.log(restockQuantity);
+    console.log(updatedQuantity);
+
+    const url = `http://localhost:5000/inventories/${inventoryId}`;
+    fetch(url, {
+      method: "PUT",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ updatedQuantity }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setUpdate(!update);
+        alert("updated successfully");
+        console.log("success", data);
+        event.target.reset();
       });
   };
 
@@ -65,6 +87,17 @@ const InventoryDetails = () => {
       <button onClick={handleUpdate} className="mx-auto text-info my-3">
         Delivered
       </button>
+      <div className="my-4">
+        <form onSubmit={handleRestock}>
+          <input
+            type="number"
+            name="number"
+            placeholder="Restock the item"
+            required
+          />
+          <input type="submit" value="Restock" className="ms-2 text-info" />
+        </form>
+      </div>
     </div>
   );
 };
