@@ -72,7 +72,7 @@ const InventoryDetails = () => {
           >
             Book Name: <span>{inventory.name}</span>
           </h6>
-          <p className="card-text">{inventory.description}</p>
+          <p className="card-text w-75 mx-auto">{inventory.description}</p>
           <p className="card-text mb-2">
             Price:
             <span className="fw-bold ">{inventory.price}</span>

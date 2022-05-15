@@ -20,8 +20,8 @@ const AddItems = () => {
     alert("Item added successfully. Check manage inventories")
   };
   return (
-    <div className="mt-5 pt-5 container w-50">
-      <h2>add</h2>
+    <div className="mt-5 pt-5 container w-75">
+      <h2>Add Item</h2>
       <form
         className="d-flex flex-column mb-3"
         onSubmit={handleSubmit(onSubmit)}
@@ -67,7 +67,7 @@ const AddItems = () => {
         />
         <input
           value="Add Item "
-          className="text-success w-25 rounded-pill mx-auto"
+          className="text-success w-50 rounded-pill mx-auto"
           type="submit"
         />
       </form>

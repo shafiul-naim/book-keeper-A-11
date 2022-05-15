@@ -35,28 +35,28 @@ const ManageInventories = () => {
   };
 
   return (
-    <div className="container mt-5 pt-5">
+    <div className="container mt-5 pt-5 ">
       <h2 className="text-primary mb-3">Inventory</h2>
       <h3 className="my-3">Total Items in stock: {inventories.length}</h3>
-      <div className=" border-1">
+      <div className="w-100 ">
         {inventories.map((inventory) => (
           <div key={inventory._id}>
-            <Table striped bordered hover>
-              <tbody>
-                <tr>
-                  <td className="w-25">
-                    <img className="addImg" src={inventory.img} alt="" />
+            <Table  striped bordered hover>
+              <tbody >
+                <tr className="inventory-table d-flex flex-column flex-md-row w-100 mx-auto">
+                  <td className="w-100 ">
+                    <img className="img" src={inventory.img} alt="" />
                   </td>
-                  <td className="w-25  ">{inventory.name}</td>
-                  <td className="w-25">{inventory.price}</td>
-                  <td className="w-25">{inventory.supplierName}</td>
-                  <td className="w-25"> <button
+                  <td className="w-100  ">{inventory.name}</td>
+                  <td className="w-100">{inventory.price}</td>
+                  <td className="w-100">{inventory.supplierName}</td>
+                  <td className="w-100"> <button
                       onClick={() => navigateToInventory(inventory._id)}
                       className="bg-info p-1 text-white border-0"
                     >
                       View Details
                     </button></td>
-                  <td className="w-25">
+                  <td className="w-100">
                     <button
                       onClick={() => handleDelete(inventory._id)}
                       className="bg-danger p-1 text-white border-0"
