@@ -8,7 +8,7 @@
     background: linear-gradient(60deg, #5cd08a, rgba(116, 134, 15, 0) 100%);
 }
 .btn-update {
-  background-color: #162220;
+  background-color: #2f814a;
   border: none;
 }
 .btn-update:hover,
@@ -16,7 +16,7 @@
 .btn-update:active,
 .btn-update.active,
 .open > .dropdown-toggle.btn-update {
-  background-color: #276a67;
+  background-color: #053906;
 }
 
 

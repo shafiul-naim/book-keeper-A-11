@@ -11,6 +11,7 @@ import RequireAuth from "./Pages/RequireAuth/RequireAuth";
 import ManageInventories from "./Pages/ManageInventories/ManageInventories";
 import AddItems from "./Pages/AddItems/AddItems";
 import MyItems from "./Pages/MyItems/MyItems";
+import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (

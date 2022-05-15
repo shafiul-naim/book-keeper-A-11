@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import auth from "../../../firebase.init";
-import "font-awesome/css/font-awesome.min.css";
+
 
 const Footer = () => {
   const [user] = useAuthState(auth);
@@ -81,6 +81,9 @@ const Footer = () => {
             </p>
             <p>
               <i className="fas fa-print ms-3"></i>+01 222 333 44
+            </p>
+            <p>
+            <i className="fa-solid fa-file-circle-question"></i>+01 222 333 44
             </p>
           </div>
           <hr className="mb-4" />

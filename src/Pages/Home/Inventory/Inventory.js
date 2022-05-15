@@ -10,39 +10,43 @@ const Inventory = ({ inventory }) => {
     navigate(`/inventory/${id}`);
   };
 
- 
-
   return (
-    <div className=" col ">
-      <div className=" card inventory border-0 h-100">
+    <>
+      <div className=" col-md-4 my-3">
         <img src={img} className=" inventory-image mb-1 mx-auto" alt="..." />
-        <div className="card-body p-0">
-          <h6
-            className="card-title p-2 w-100 text-black
+      </div>
+      <div className=" col-md-4  my-3">
+        <div className=" card inventory border-0 h-100">
+          <div className="card-body p-0">
+            <h6
+              className="card-title p-2 w-100 text-black
           "
-          >
-            Book Name: <span>{name}</span>
-          </h6>
-          <p className="card-text">{description}</p>
-          <p className="card-text mb-2">
-            Price:
-            <span className="fw-bold ">{price}</span>
-          </p>
-          <p className="card-text">
-            Supplier Name: <span className="fw-bolder">{supplierName}</span>
-          </p>
-          <p className="card-text">Quantity: {Quantity}</p>
+            >
+              Book Name: <span>{name}</span>
+            </h6>
+            <p className="card-text">{description}</p>
+            <p className="card-text mb-2">
+              Price:
+              <span className="fw-bold ">{price}</span>
+            </p>
+            <p className="card-text">
+              Supplier Name: <span className="fw-bolder">{supplierName}</span>
+            </p>
+            <p className="card-text">Quantity: {Quantity}</p>
+          </div>
         </div>
-        <div className=" rounded mx-auto text-center w-100">
+      </div>
+      <div className=" col-md-4  my-auto ">
+        <div className=" rounded mx-auto text-center">
           <button
             onClick={() => navigateToInventoryDetails(_id)}
-            className="btn-update fs-6 text-white rounded px-2 mb-1 mx-auto "
+            className="btn-update fs-6 text-white rounded px-2 mb-1 h-100 mx-auto "
           >
             Update
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
