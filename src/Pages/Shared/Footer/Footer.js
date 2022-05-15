@@ -88,7 +88,7 @@ const Footer = () => {
             <p>
               <small> &copy; Copyright {year} . All right reserved by: </small>
               <button
-                className="text-white bg-dark border-0"
+                className="text-info bg-dark border-0"
               >
                 <strong> Shafiul Islam</strong>
               </button>

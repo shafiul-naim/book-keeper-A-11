@@ -10,6 +10,8 @@ const Inventory = ({ inventory }) => {
     navigate(`/inventory/${id}`);
   };
 
+ 
+
   return (
     <div className=" col ">
       <div className=" card inventory border-0 h-100">
