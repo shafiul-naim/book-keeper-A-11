@@ -6,11 +6,11 @@ import { FaQuestion } from "react-icons/fa";
 const Inquiry = () => {
   return (
     <div className="my-5  bg-light ">
-      <h2 className="text-primary">Inquiry</h2>
+      <h2 className="text-primary text-center">Inquiry</h2>
       <div className="row row-cols-1 row-cols-md-3 g-4 container mx-auto my-4">
         <div className="col col-md-6">
-          <p>
-            <FaQuestion size={56} className="text-info"></FaQuestion>
+          <p className="text-center">
+            <FaQuestion size={56} className="text-info mx-auto"></FaQuestion>
           </p>
           <p className="p-3 mx-auto my-auto">
             If you have question about the this inventory management system feel
@@ -49,3 +49,5 @@ const Inquiry = () => {
 };
 
 export default Inquiry;
+
+

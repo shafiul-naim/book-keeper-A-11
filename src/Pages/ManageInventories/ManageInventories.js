@@ -36,8 +36,8 @@ const ManageInventories = () => {
 
   return (
     <div className="container mt-5 pt-5 ">
-      <h2 className="text-primary mb-3">Inventory</h2>
-      <h3 className="my-3">Total Items in stock: {inventories.length}</h3>
+      <h2 className="text-primary mb-3 text-center">Inventory</h2>
+      <h3 className="my-3 text-center">Total Items in stock: {inventories.length}</h3>
       <div className="w-100 ">
         {inventories.map((inventory) => (
           <div key={inventory._id}>
@@ -73,10 +73,10 @@ const ManageInventories = () => {
           </div>
         ))}
       </div>
-      <div>
+      <div className="text-center ">
         <button
           onClick={navigateToAddItem}
-          className="text-success my-3 p-1 border-1 rounded-pill"
+          className="text-white bg-success my-3 p-2 border-1 rounded-pill "
         >
           Add new item
         </button>

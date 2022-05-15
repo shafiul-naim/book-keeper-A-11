@@ -32,7 +32,7 @@ const Footer = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="d-flex flex-column mx-auto">
                     <Nav.Link className="text-white" href="home#inventory">Inventory</Nav.Link>
-                    <Nav.Link className="text-white" href="home#blogs">Blogs</Nav.Link>
+                    <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                     {user && (
                       <>
                         <Nav.Link
@@ -82,9 +82,7 @@ const Footer = () => {
             <p>
               <i className="fas fa-print ms-3"></i>+01 222 333 44
             </p>
-            <p>
-            <i className="fa-solid fa-file-circle-question"></i>+01 222 333 44
-            </p>
+           
           </div>
           <hr className="mb-4" />
           <div className="row align-item-center">

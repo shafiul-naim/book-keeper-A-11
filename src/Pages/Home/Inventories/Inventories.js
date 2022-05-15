@@ -5,6 +5,7 @@ import Inventory from "../Inventory/Inventory";
 
 const Inventories = () => {
   const [inventories] = useInventories();
+  
 
   const navigate = useNavigate();
 
@@ -24,10 +25,10 @@ const Inventories = () => {
         </div>
         
       </div>
-      <div className="mx-auto my-3">
+      <div className="mx-auto my-3 text-center">
         <button
           onClick={navigateToManageInventories}
-          className="btn-update fs-6 text-white rounded p-2 mb-1 mx-auto "
+          className="btn-update fs-6 text-white rounded p-2 mb-1  "
         >
           Manage Inventories
         </button>

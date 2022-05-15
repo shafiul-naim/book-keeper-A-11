@@ -13,17 +13,17 @@ const AvailableBooks = () => {
             
             key={inventory._id}
           >
-            <div className="col  p-2 mx-auto border rounded" >
+            <div className="col  p-2 mx-auto " >
               <img
                 src={inventory.img}
                 className=" inventory-image mb-1 mx-auto"
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title p-1 w-100 text-black" style={{height: "60px"}}>
+                <h5 className="card-title p-1 w-100 text-black" >
                   {inventory.name}
                 </h5>
-                <p className="card-text" style={{height: "100px"}}>{inventory.description}</p>
+                <p className="card-text" >{inventory.description}</p>
                 <p className="card-text">
                   Price:
                   <span className="fw-bold">{inventory.price}</span>
