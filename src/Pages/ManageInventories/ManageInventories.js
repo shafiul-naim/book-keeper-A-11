@@ -41,8 +41,8 @@ const ManageInventories = () => {
       <div className="w-100 ">
         {inventories.map((inventory) => (
           <div key={inventory._id}>
-            <Table  striped bordered hover>
-              <tbody >
+            <Table striped bordered hover>
+              <tbody>
                 <tr className="inventory-table d-flex flex-column flex-md-row w-100 mx-auto">
                   <td className="w-100 ">
                     <img className="img" src={inventory.img} alt="" />
@@ -50,12 +50,15 @@ const ManageInventories = () => {
                   <td className="w-100  ">{inventory.name}</td>
                   <td className="w-100">{inventory.price}</td>
                   <td className="w-100">{inventory.supplierName}</td>
-                  <td className="w-100"> <button
+                  <td className="w-100">
+                    {" "}
+                    <button
                       onClick={() => navigateToInventory(inventory._id)}
                       className="bg-info p-1 text-white border-0"
                     >
                       View Details
-                    </button></td>
+                    </button>
+                  </td>
                   <td className="w-100">
                     <button
                       onClick={() => handleDelete(inventory._id)}

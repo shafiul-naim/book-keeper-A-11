@@ -16,7 +16,7 @@ const Inventory = ({ inventory }) => {
         <img src={img} className=" inventory-image mb-1 mx-auto" alt="..." />
       </div>
       <div className=" col-md-4  my-3">
-        <div className=" card inventory border-0 h-100">
+        <div className=" card border-0 h-100">
           <div className="card-body p-0">
             <h6
               className="card-title p-2 w-100 text-black

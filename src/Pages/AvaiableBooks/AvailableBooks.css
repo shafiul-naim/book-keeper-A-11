@@ -1,0 +1,8 @@
+.inventory-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 8px solid transparent;
+    background: linear-gradient(60deg, #5cd08a, rgba(116, 134, 15, 0) 100%);
+}

@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { FaQuestion } from "react-icons/fa";

@@ -12,6 +12,7 @@ import ManageInventories from "./Pages/ManageInventories/ManageInventories";
 import AddItems from "./Pages/AddItems/AddItems";
 import MyItems from "./Pages/MyItems/MyItems";
 import "font-awesome/css/font-awesome.min.css";
+import AvailableBooks from "./Pages/AvaiableBooks/AvailableBooks";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/available" element={<AvailableBooks></AvailableBooks>}></Route>
         <Route
           path="/inventory/:inventoryId"
           element={
