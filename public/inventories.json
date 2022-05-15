@@ -5,7 +5,9 @@
     "description": "This book is What is programming , how does it work, how to start programming all of these things are written wonderfully with humour and easy to read",
     "img": "https://i.ibb.co/0jf5zqw/book-1.jpg",
     "supplierName": "Jhankar Mahbub",
-    "Quantity": "35"
+    "Quantity": "35",
+    "email": "shafiul.naim@gmail.com",
+    "sold": "20"
   },
   {
     "name": "Programming er bolod to boss",
@@ -13,7 +15,9 @@
     "description": "This is book about data structure, stack, queue, object, sort, searching, linked  list etc. ",
     "img": "https://i.ibb.co/bXvC2mJ/book-2.jpg",
     "supplierName": "Jhankar Mahbub",
-    "Quantity": "25"
+    "Quantity": "25",
+    "email": "shafiul.naim@gmail.com",
+    "sold": "15"
   },
   {
     "name": "Full-stack development",
@@ -21,7 +25,9 @@
     "description": "A complete guideline for fullstack development.Including freelancing, data structure, knowladge about fundamental programming, C, algorithm etc.",
     "img": "https://i.ibb.co/bmg0dSQ/book-3.png",
     "supplierName": "H.M Nayem",
-    "Quantity": "14"
+    "Quantity": "14",
+    "email": "shafiul.naim@gmail.com",
+    "sold": "13"
   },
   {
     "name": "Programmming er adopantho",
@@ -29,7 +35,9 @@
     "description": "Programming, importance of problem solving and mindset all of this things are written wonderfully in this book",
     "img": "https://i.ibb.co/5v8Y8NP/book-4.jpg",
     "supplierName": "H.M Nayem",
-    "Quantity": "25"
+    "Quantity": "25",
+    "email": "islamshaki7@gmail.com",
+    "sold": "22"
   },
   {
     "name": "Hathe kolome javascript",
@@ -37,7 +45,9 @@
     "description": "An amazing book about javascript. From basic to advance, DOM etc fundamental topics are written as documentation in bangla is this book",
     "img": "https://i.ibb.co/KW6rkST/book-5.png",
     "supplierName": "Junayed Ahmed",
-    "Quantity": "15"
+    "Quantity": "15",
+    "email": "islamshaki7@gmail.com",
+    "sold": "15"
   },
   {
     "name": "52 Programming somossa",
@@ -45,6 +55,38 @@
     "description": "From basic to intermediate level C based problem.   ",
     "img": "https://i.ibb.co/20zhvN4/book-6.png",
     "supplierName": "Tamim Shahriar Shubeen",
-    "Quantity": "7"
+    "Quantity": "7",
+    "email": "islamshaki7@gmail.com",
+    "sold": "9"
+  },
+  {
+    "name": "Java Programming",
+    "price": "360",
+    "description": "This book contains all the necessary information about JAVA. It focused on object oriented programming with java ",
+    "img": "https://i.ibb.co/F6p1btV/book-9.png",
+    "supplierName": "A.N.M Bojlur Rahman",
+    "Quantity": "15",
+    "email": "islamshaki7@gmail.com",
+    "sold": "5"
+  },
+  {
+    "name": "Onko Bhaiya",
+    "price": "200",
+    "description": "Those who love math this book is gem for them.Writer is passionate about math and this book he wrote with great passion also",
+    "img": "https://i.ibb.co/DDZ1jwX/book-8.jpg",
+    "supplierName": "Chamak Hasan",
+    "Quantity": "35",
+    "email": "shafiul.naim@gmail.com",
+    "sold": "30"
+  },
+  {
+    "name": "Programming Contest",
+    "price": "180",
+    "description": "Programming contest is very much needed for logic development.Most fundamental topics like DS,algorithm also all the necessary info about contest are discussed here",
+    "img": "https://i.ibb.co/vLW7ksr/book-7.png",
+    "supplierName": "Md. Mahbubul hasan",
+    "Quantity": "15",
+    "email": "islamshaki7@gmail.com",
+    "sold": "15"
   }
 ]

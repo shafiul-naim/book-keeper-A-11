@@ -11,7 +11,7 @@ const InventoryDetails = () => {
     fetch(url)
       .then((res) => res.json())
       .then((data) => setInventory(data));
-  }, [update]);
+  }, [update,inventoryId]);
 
   const handleUpdate = () => {
     const quantity = inventory.Quantity;
@@ -82,6 +82,7 @@ const InventoryDetails = () => {
             <span className="fw-bolder">{inventory.supplierName}</span>
           </p>
           <p className="card-text">Quantity: {inventory.Quantity}</p>
+          <p className="card-text">Sold: {inventory.sold}</p>
         </div>
       </div>
       <button onClick={handleUpdate} className="mx-auto text-info my-3">

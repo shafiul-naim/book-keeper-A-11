@@ -1,8 +1,11 @@
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
+import auth from "../../firebase.init";
 
 const AddItems = () => {
   const { register, handleSubmit } = useForm();
+  const [user] = useAuthState(auth);
   const onSubmit = (data) => {
     console.log(data);
     const url = `http://localhost:5000/inventories`;
@@ -27,6 +30,13 @@ const AddItems = () => {
         onSubmit={handleSubmit(onSubmit)}
       >
         <input
+          
+          className="mb-3"
+          value={user?.email}
+          
+          {...register("email")}
+        />
+        <input
           placeholder="Book Name"
           className="mb-3"
           required
@@ -44,6 +54,13 @@ const AddItems = () => {
           required
           type="number"
           {...register("price")}
+        />
+        <input
+          placeholder="Sold"
+          className="mb-3"
+          type="number"
+          required
+          {...register("sold")}
         />
         <input
           placeholder="Supplier Name"
@@ -65,8 +82,9 @@ const AddItems = () => {
           type="text"
           {...register("img")}
         />
+       
         <input
-          value="Add Item "
+          value="Add Item"
           className="text-success w-50 rounded-pill mx-auto"
           type="submit"
         />
