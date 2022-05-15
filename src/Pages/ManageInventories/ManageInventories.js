@@ -26,6 +26,8 @@ const ManageInventories = () => {
     }
   };
 
+  
+
   const navigateToAddItem = () => {
     navigate("/additem");
   };
