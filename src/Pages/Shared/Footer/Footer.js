@@ -32,7 +32,7 @@ const Footer = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="d-flex flex-column mx-auto">
                     <Nav.Link className="text-white" href="home#inventory">Inventory</Nav.Link>
-                    <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+                    <Nav.Link className="text-white" as={Link} to="blogs">Blogs</Nav.Link>
                     {user && (
                       <>
                         <Nav.Link

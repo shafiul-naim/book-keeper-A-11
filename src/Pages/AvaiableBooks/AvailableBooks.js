@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import useInventories from "../../hooks/useInventories";
+import Loading from "../Shared/Loading/Loading";
 import "./AvailableBooks.css";
 
 const AvailableBooks = () => {
   const [inventories] = useInventories();
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (inventories?.length > 0) {
+      setLoading(false);
+    }
+  }, [inventories]);
+  
+  if (loading) {
+    return <Loading></Loading>;
+  }
   return (
     <div className="my-5 pt-5 container">
       <h2 className="mb-5">All books</h2>
