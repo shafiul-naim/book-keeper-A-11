@@ -9,11 +9,29 @@ const Books = () => {
   const handleShow = () => setShow(true);
   return (
     <div className="container my-5">
+        <div className="container my-5 py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="card card-body border-0 shadow ">
+                <div className="row">
+                  <div className="col">
+                    <div
+                      className="card card-body "
+                      style={{ backgroundColor: "#0f4f3f" , marginBottom:"-50px"}}
+                    >
+                      <h5 className="mx-auto fs-2 text-white ">Books</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       <Card>
         <Card.Header>
           <Nav variant="tabs" defaultActiveKey="#first">
             <Nav.Item>
-              <Nav.Link href="#first">Old book</Nav.Link>
+              <Nav.Link href="#first">Old books</Nav.Link>
             </Nav.Item>
             <Nav.Link as={Link} to="available">
               All books

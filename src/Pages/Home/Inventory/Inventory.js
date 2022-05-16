@@ -12,14 +12,14 @@ const Inventory = ({ inventory }) => {
 
   return (
     <>
-      <div className=" col-md-4 my-3">
+      <div className=" col-md-4 my-3 d-flex ">
         <img src={img} className=" inventory-image mb-1 mx-auto" alt="..." />
       </div>
-      <div className=" col-md-4  my-3">
+      <div className=" col-md-4  my-3 d-flex align-content-center ">
         <div className=" card border-0 h-100">
-          <div className="card-body p-0">
+          <div className="card-body p-0 bg-light">
             <h6
-              className="card-title p-2 w-100 text-black
+              className="card-title py-2 w-100 text-black
           "
             >
               Book Name: <span>{name}</span>

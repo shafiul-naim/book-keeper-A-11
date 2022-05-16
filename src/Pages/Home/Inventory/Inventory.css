@@ -8,8 +8,8 @@
     background: linear-gradient(60deg, #5cd08a, rgba(116, 134, 15, 0) 100%);
 }
 .btn-update {
-  background-color: #2f814a;
-  border: none;
+  background-color: #015c36;
+  border: 1px solid white;
 }
 .btn-update:hover,
 .btn-update:focus,

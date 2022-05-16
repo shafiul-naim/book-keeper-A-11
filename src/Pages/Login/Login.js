@@ -60,14 +60,34 @@ const Login = () => {
   }
 
   return (
-    <div className="mt-5 pt-5 container  mx-auto">
-      <h2 className="mt-2 text-info text-center">Please login</h2>
-      <Form className="w-75 mx-auto" onSubmit={handleSubmit}>
+    <div className=" pt-3 container  mx-auto">
+        <div className="container mb-3 py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="card card-body border-0 shadow ">
+                <div className="row">
+                  <div className="col">
+                    <div
+                      className="card card-body "
+                      style={{ backgroundColor: "#0f4f3f" , marginBottom:"-50px"}}
+                    >
+                      <h5 className="mx-auto fs-2 text-white ">Please Login </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <Form className="w-50 mx-auto d-flex flex-column" onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control
             ref={emailRef}
             type="email"
             placeholder="Enter email"
+            className="mb-3 rounded-pill p-2 border-0"
             required
           />
         </Form.Group>
@@ -77,17 +97,20 @@ const Login = () => {
             ref={passwordRef}
             type="password"
             placeholder="Password"
+            className="mb-3 rounded-pill p-2 border-0"
             required
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button className="text-center mx-auto rounded-pill px-3 py-2" variant="success" type="submit">
           Login
         </Button>
       </Form>
 
+
+
       {errorElement}
-      <p className="w-50 mx-auto my-2">
+      <p className="w-50 mx-auto my-4">
         Want to mange your inventory ?{" "}
         <Link
           to="/register"

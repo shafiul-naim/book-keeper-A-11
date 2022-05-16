@@ -5,9 +5,26 @@ import { FaQuestion } from "react-icons/fa";
 
 const Inquiry = () => {
   return (
-    <div className="my-5  bg-light ">
-      <h2 className="text-primary text-center">Inquiry</h2>
-      <div className="row row-cols-1 row-cols-md-3 g-4 container mx-auto my-4">
+    <div  id="inquiry" className="my-5   ">
+      <div className="container mt-5 py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="card card-body border-0 shadow ">
+                <div className="row">
+                  <div className="col">
+                    <div
+                      className="card card-body "
+                      style={{ backgroundColor: "#0f4f3f" , marginBottom:"-50px"}}
+                    >
+                      <h5 className="mx-auto fs-2 text-white ">Inquiry</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div className="row row-cols-1 row-cols-md-3 g-4 container mx-auto my-4 bg-light">
         <div className="col col-md-6">
           <p className="text-center">
             <FaQuestion size={56} className="text-info mx-auto"></FaQuestion>

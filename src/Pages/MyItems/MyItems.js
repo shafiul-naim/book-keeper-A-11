@@ -40,9 +40,26 @@ const MyItems = () => {
   };
 
   return (
-    <div className="mt-5 pt-5 container">
-      <h2>My Items</h2>
-      <h3 className="my-3">My Items in stock: {myItems.length}</h3>
+    <div className="mt-3 pt-3 container">
+        <div className="container mb-3 py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="card card-body border-0 shadow ">
+                <div className="row">
+                  <div className="col">
+                    <div
+                      className="card card-body "
+                      style={{ backgroundColor: "#0f4f3f" , marginBottom:"-50px"}}
+                    >
+                      <h5 className="mx-auto fs-2 text-white ">My Items </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <h3 className="my-3 text-center">My Items in stock: {myItems.length}</h3>
       <div className="w-100 ">
         {myItems.map((myItem) => (
           <div key={myItem._id}>

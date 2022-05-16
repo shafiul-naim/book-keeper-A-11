@@ -14,7 +14,7 @@ const Inventories = () => {
       setLoading(false);
     }
   }, [inventories]);
-  
+
   if (loading) {
     return <Loading></Loading>;
   }
@@ -26,14 +26,31 @@ const Inventories = () => {
   return (
     <>
       <div id="inventory" className="container mt-5 ">
-        <h2 className="text-center my-5 text-primary ">Book Inventory</h2>
-        <div className="row row-cols-1 row-cols-md-3 g-4 border-1 ">
+        <div className="container mt-5 py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="card card-body border-0 shadow ">
+                <div className="row">
+                  <div className="col">
+                    <div
+                      className="card card-body "
+                      style={{ backgroundColor: "#0f4f3f" , marginBottom:"-50px"}}
+                    >
+                      <h5 className="mx-auto fs-2 text-white ">Inventory</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row row-cols-1 row-cols-md-3 g-4 border-1 mx-auto bg-light mt-3">
           {inventories.slice(0, 6).map((inventory) => (
             <Inventory key={inventory._id} inventory={inventory}></Inventory>
           ))}
         </div>
       </div>
-      <div className="mx-auto my-3 text-center">
+      <div className=" container mx-auto mb-3 text-center bg-light">
         <button
           onClick={navigateToManageInventories}
           className="btn-update fs-6 text-white rounded p-2 mb-1  "

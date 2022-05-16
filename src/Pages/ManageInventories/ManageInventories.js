@@ -37,10 +37,27 @@ const ManageInventories = () => {
   };
 
   return (
-    <div className="container mt-5 pt-5 ">
-      <h2 className="text-primary mb-3 text-center">Inventory</h2>
+    <div className="container pt-3 ">
+      <div className="container mt-5 py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-3">
+              <div className="card card-body border-0 shadow ">
+                <div className="row">
+                  <div className="col">
+                    <div
+                      className="card card-body "
+                      style={{ backgroundColor: "#0f4f3f" , marginBottom:"-50px"}}
+                    >
+                      <h5 className="mx-auto fs-2 text-white ">Manage </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       <h3 className="my-3 text-center">Total Items in stock: {inventories.length}</h3>
-      <div className="w-100 ">
+      <div className="w-100 mx-auto">
         {inventories.map((inventory) => (
           <div key={inventory._id}>
             <Table striped bordered hover>
@@ -78,7 +95,7 @@ const ManageInventories = () => {
       <div className="text-center ">
         <button
           onClick={navigateToAddItem}
-          className="text-white bg-success my-3 p-2 border-1 rounded-pill "
+          className="text-white bg-success my-3 px-3 py-2 border-1 rounded-pill "
         >
           Add new item
         </button>
