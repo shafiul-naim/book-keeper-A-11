@@ -12,7 +12,7 @@ const InventoryDetails = () => {
   };
 
   useEffect(() => {
-    const url = `http://localhost:5000/inventories/${inventoryId}`;
+    const url = `https://young-river-68187.herokuapp.com/inventories/${inventoryId}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setInventory(data));
@@ -22,7 +22,7 @@ const InventoryDetails = () => {
     const quantity = inventory.Quantity;
     const updatedQuantity = parseInt(quantity) - 1;
 
-    const url = `http://localhost:5000/inventories/${inventoryId}`;
+    const url = `https://young-river-68187.herokuapp.com/inventories/${inventoryId}`;
     fetch(url, {
       method: "PUT",
       headers: {
@@ -45,7 +45,7 @@ const InventoryDetails = () => {
     console.log(restockQuantity);
     console.log(updatedQuantity);
 
-    const url = `http://localhost:5000/inventories/${inventoryId}`;
+    const url = `https://young-river-68187.herokuapp.com/inventories/${inventoryId}`;
     fetch(url, {
       method: "PUT",
       headers: {

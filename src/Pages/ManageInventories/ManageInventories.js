@@ -11,7 +11,7 @@ const ManageInventories = () => {
   const handleDelete = (id) => {
     const proceedDelete = window.confirm("Are your sure want to delete?");
     if (proceedDelete) {
-      const url = `http://localhost:5000/inventories/${id}`;
+      const url = `https://young-river-68187.herokuapp.com/inventories/${id}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -67,7 +67,7 @@ const ManageInventories = () => {
                     <img className="img " src={inventory.img} alt="" />
                   </td>
                   <td className="w-100 text-dark fs-5 text-center">{inventory.name}</td>
-                  <td className="w-100 text-dark fs-5 text-center">{inventory.price}</td>
+                  <td className="w-100 text-dark fs-5 text-center">Price: {inventory.price}</td>
                   <td className="w-100 text-dark fs-5 text-center">{inventory.supplierName}</td>
                   <td className="w-100 text-dark fs-5 text-center">
                     {" "}

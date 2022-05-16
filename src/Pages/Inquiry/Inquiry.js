@@ -35,20 +35,20 @@ const Inquiry = () => {
             our inventory feel free to ask anything.
           </p>
         </div>
-        <div className="col col-md-6">
-          <form className="d-flex flex-column container">
+        <div className="col col-md-5 ">
+          <form className="d-flex flex-column w-100 mx-auto">
             <input
-              className="my-2 p-1 w-75 mx-auto"
+              className="my-2 p-2 w-100 rounded-pill border-0 mx-auto"
               type="text"
               placeholder="Your name"
             />
             <input
-              className="my-2 p-1 w-75 mx-auto"
+              className="my-2 p-2 w-100 rounded-pill border-0 mx-auto"
               type="text"
               placeholder="Your email"
             />
             <input
-              className="my-2 p-1 w-75 mx-auto"
+              className="my-2 p-2 w-100 rounded-pill border-0 mx-auto"
               type="text"
               placeholder="What do you want to know"
             />

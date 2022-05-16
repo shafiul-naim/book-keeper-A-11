@@ -73,25 +73,4 @@ const AvailableBooks = () => {
 
 export default AvailableBooks;
 
-// {/* <div className=" card  border-0 h-100">
-//                 <img
-//                   src={inventory.img}
-//                   className=" inventory-image mb-1 mx-auto"
-//                   alt="..."
-//                 />
-//                 <div className="card-body p-0">
-//                   <h6 className="card-title p-2 w-100 text-black ">
-//                     Book Name: <span>{inventory.name}</span>
-//                   </h6>
-//                   <p className="card-text">{inventory.description}</p>
-//                   <p className="card-text mb-2">
-//                     Price:
-//                     <span className="fw-bold ">{inventory.price}</span>
-//                   </p>
-//                   <p className="card-text">
-//                     Supplier Name:{" "}
-//                     <span className="fw-bolder">{inventory.supplierName}</span>
-//                   </p>
-//                   <p className="card-text">Quantity: {inventory.Quantity}</p>
-//                 </div>
-//               </div> */}
+

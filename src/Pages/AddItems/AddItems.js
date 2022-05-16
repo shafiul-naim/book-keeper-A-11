@@ -9,7 +9,7 @@ const AddItems = () => {
   console.log(user)
   const onSubmit = (data) => {
     console.log(data);
-    const url = `http://localhost:5000/inventories`;
+    const url = `https://young-river-68187.herokuapp.com/inventories`;
     fetch(url , {
         method: 'POST',
         headers: {

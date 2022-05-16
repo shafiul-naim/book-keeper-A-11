@@ -34,15 +34,15 @@ const Books = () => {
               <Nav.Link href="#first">Old books</Nav.Link>
             </Nav.Item>
             <Nav.Link as={Link} to="available">
-              All books
+              Present books list
             </Nav.Link>
           </Nav>
         </Card.Header>
         <Card.Body>
-          <Card.Title>Buy old books</Card.Title>
+          <Card.Title>Collect old books</Card.Title>
           <Card.Text>
-            Some of the old books are available in our inventory.You can buy
-            these at our warehouse.
+            Some of the old books are available in our inventory.You can collect
+            those at our warehouse.
           </Card.Text>
           <Button variant="primary" onClick={handleShow}>
             Book list
