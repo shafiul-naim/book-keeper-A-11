@@ -6,6 +6,7 @@ import auth from "../../firebase.init";
 const AddItems = () => {
   const { register, handleSubmit } = useForm();
   const [user] = useAuthState(auth);
+  console.log(user)
   const onSubmit = (data) => {
     console.log(data);
     const url = `http://localhost:5000/inventories`;
