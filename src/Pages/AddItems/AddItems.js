@@ -44,7 +44,7 @@ const AddItems = () => {
           </div>
         </div>
       <form
-        className="d-flex flex-column mb-3 w-50 mx-auto"
+        className="d-flex flex-column mb-3 w-75 mx-auto"
         onSubmit={handleSubmit(onSubmit)}
       >
         <input

@@ -78,10 +78,10 @@ const ManageInventories = () => {
                       View Details
                     </button>
                   </td>
-                  <td className="w-100">
+                  <td className="w-100 text-center">
                     <button
                       onClick={() => handleDelete(inventory._id)}
-                      className="bg-danger p-1 text-white border-0"
+                      className="bg-danger p-1 text-white border-0 rounded-pill py-2 px-3"
                     >
                       Delete
                     </button>

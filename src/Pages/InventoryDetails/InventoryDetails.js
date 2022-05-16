@@ -90,7 +90,7 @@ const InventoryDetails = () => {
           <p className="card-text">Sold: {inventory.sold}</p>
           <button
             onClick={handleUpdate}
-            className="bg-danger text-white rounded my-3 w-25"
+            className="bg-danger text-white rounded my-3 "
           >
             Delivered
           </button>
