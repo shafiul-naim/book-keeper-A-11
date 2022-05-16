@@ -44,7 +44,7 @@ const AddItems = () => {
           </div>
         </div>
       <form
-        className="d-flex flex-column mb-3 w-75 mx-auto"
+        className="d-flex flex-column mb-3 w-50 mx-auto"
         onSubmit={handleSubmit(onSubmit)}
       >
         <input
@@ -103,7 +103,7 @@ const AddItems = () => {
        
         <input
           value="Add Item"
-          className="text-white bg-success border-1 px-3 py-2 rounded-pill mx-auto"
+          className="text-white bg-success border-1 border-light px-3 py-2 rounded-pill mx-auto"
           type="submit" style={{width:"100px"}}
         />
       </form>
