@@ -63,13 +63,13 @@ const ManageInventories = () => {
             <Table striped bordered hover>
               <tbody>
                 <tr className="inventory-table d-flex flex-column flex-md-row w-100 mx-auto">
-                  <td className="w-100 ">
-                    <img className="img" src={inventory.img} alt="" />
+                  <td className="w-100 text-dark fs-5 text-center">
+                    <img className="img " src={inventory.img} alt="" />
                   </td>
-                  <td className="w-100  ">{inventory.name}</td>
-                  <td className="w-100">{inventory.price}</td>
-                  <td className="w-100">{inventory.supplierName}</td>
-                  <td className="w-100">
+                  <td className="w-100 text-dark fs-5 text-center">{inventory.name}</td>
+                  <td className="w-100 text-dark fs-5 text-center">{inventory.price}</td>
+                  <td className="w-100 text-dark fs-5 text-center">{inventory.supplierName}</td>
+                  <td className="w-100 text-dark fs-5 text-center">
                     {" "}
                     <button
                       onClick={() => navigateToInventory(inventory._id)}

@@ -66,13 +66,13 @@ const MyItems = () => {
             <Table striped bordered hover>
               <tbody>
                 <tr className="inventory-table d-flex flex-column flex-md-row w-100 mx-auto">
-                  <td className="w-100 ">
+                  <td className="w-100 text-center">
                     <img className="img" src={myItem.img} alt="" />
                   </td>
-                  <td className="w-100  ">{myItem.name}</td>
-                  <td className="w-100">{myItem.price}</td>
-                  <td className="w-100">{myItem.supplierName}</td>
-                  <td className="w-100">
+                  <td className="w-100 text-dark fs-5 text-center" >{myItem.name}</td>
+                  <td className="w-100 text-dark fs-5 text-center">{myItem.price}</td>
+                  <td className="w-100 text-dark fs-5 text-center">{myItem.supplierName}</td>
+                  <td className="w-100 text-dark fs-5 text-center">
                     {" "}
                     <button
                       onClick={() => navigateToInventory(myItem._id)}
