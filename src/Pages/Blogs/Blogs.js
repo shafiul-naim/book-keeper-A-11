@@ -30,7 +30,7 @@ const Blogs = () => {
         <Card
           className="col  mx-auto"
           border="secondary"
-          style={{ width: "24rem" }}
+          style={{ width: "22rem" }}
         >
           <Card.Header>Difference between javascript and nodejs</Card.Header>
           <Card.Body>
@@ -51,7 +51,7 @@ const Blogs = () => {
         <Card
           className="col  mx-auto"
           border="secondary"
-          style={{ width: "24rem" }}
+          style={{ width: "22rem" }}
         >
           <Card.Header>
             When should you use nodejs and when should you use mongodb
@@ -75,7 +75,7 @@ const Blogs = () => {
         <Card
           className="col  mx-auto"
           border="secondary"
-          style={{ width: "24rem" }}
+          style={{ width: "22rem" }}
         >
           <Card.Header>
             What is the purpose of jwt and how does it work

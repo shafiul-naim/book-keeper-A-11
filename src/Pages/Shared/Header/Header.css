@@ -1,3 +1,9 @@
 .text-style{
     color: black;
 }
+.title{
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(245, 122, 122), rgb(247, 247, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
