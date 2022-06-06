@@ -7,6 +7,7 @@ const AddItems = () => {
   const { register, handleSubmit } = useForm();
   const [user] = useAuthState(auth);
   console.log(user)
+ 
   const onSubmit = (data) => {
     console.log(data);
     const url = `https://young-river-68187.herokuapp.com/inventories`;

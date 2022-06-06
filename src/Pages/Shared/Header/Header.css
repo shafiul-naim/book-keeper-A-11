@@ -3,7 +3,7 @@
 }
 .title{
     font-size: 25px;
-    background: -webkit-linear-gradient(rgb(245, 122, 122), rgb(247, 247, 247));
+    background: -webkit-linear-gradient(rgb(122, 245, 225), rgb(114, 167, 134));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
